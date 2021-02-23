@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.omg.org/spec/DD/20100524/DI" xmlns:ns3="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns4="http://www.omg.org/spec/BPMN/20100524/DI" targetNamespace="http://aist.fh-hagenberg.at/msbpmn">
     <process isExecutable="false" name="VA_CKD_Protocol" id="VA_CKD_Protocol">
         <startEvent isInterrupting="false" parallelMultiple="false" name="start" id="id_start64">
@@ -75,4 +75,123 @@
             <incoming>sf_join_of_xor_group_end65</incoming>
         </endEvent>
     </process>
+    <ns4:BPMNDiagram>
+        <ns4:BPMNPlane bpmnElement="VA_CKD_Protocol">
+            <ns4:BPMNShape bpmnElement="id_start66" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="530.0" y="270.0" width="30.0" height="30.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_003.1" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="610.0" y="245.0" width="100.0" height="80.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_end67" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="760.0" y="270.0" width="30.0" height="30.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNEdge bpmnElement="sf_id_003.1_end67">
+                <ns2:waypoint x="710.0" y="285.0"/>
+                <ns2:waypoint x="760.0" y="285.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_start66_id_003.1">
+                <ns2:waypoint x="560.0" y="285.0"/>
+                <ns2:waypoint x="610.0" y="285.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNShape bpmnElement="id_start68" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="1080.0" y="175.0" width="30.0" height="30.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_004.1" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="1160.0" y="150.0" width="100.0" height="80.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_004.2" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="1310.0" y="150.0" width="100.0" height="80.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_end69" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="1460.0" y="175.0" width="30.0" height="30.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNEdge bpmnElement="sf_id_004.1_id_004.2">
+                <ns2:waypoint x="1260.0" y="190.0"/>
+                <ns2:waypoint x="1310.0" y="190.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_start68_id_004.1">
+                <ns2:waypoint x="1110.0" y="190.0"/>
+                <ns2:waypoint x="1160.0" y="190.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_id_004.2_end69">
+                <ns2:waypoint x="1410.0" y="190.0"/>
+                <ns2:waypoint x="1460.0" y="190.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNShape bpmnElement="id_start64" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="60.0" y="247.0" width="30.0" height="30.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_001" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="140.0" y="222.0" width="100.0" height="80.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_002" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="290.0" y="225.0" width="100.0" height="80.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_003" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="440.0" y="155.0" width="410.0" height="230.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_xor_group" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="900.0" y="257.0" width="40.0" height="40.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_join_of_xor_group" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="1600.0" y="261.0" width="40.0" height="40.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_id_004" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="990.0" y="60.0" width="560.0" height="230.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNShape bpmnElement="id_end65" isHorizontal="true" isExpanded="true">
+                <ns3:Bounds x="1690.0" y="266.0" width="30.0" height="30.0"/>
+            </ns4:BPMNShape>
+            <ns4:BPMNEdge bpmnElement="sf_id_003_xor_group">
+                <ns2:waypoint x="850.0" y="270.0"/>
+                <ns2:waypoint x="875.0" y="270.0"/>
+                <ns2:waypoint x="875.0" y="277.0"/>
+                <ns2:waypoint x="900.0" y="277.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_id_004_join_of_xor_group">
+                <ns2:waypoint x="1550.0" y="175.0"/>
+                <ns2:waypoint x="1575.0" y="175.0"/>
+                <ns2:waypoint x="1575.0" y="281.0"/>
+                <ns2:waypoint x="1600.0" y="281.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_id_002_id_003">
+                <ns2:waypoint x="390.0" y="265.0"/>
+                <ns2:waypoint x="415.0" y="265.0"/>
+                <ns2:waypoint x="415.0" y="270.0"/>
+                <ns2:waypoint x="440.0" y="270.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_start64_id_001">
+                <ns2:waypoint x="90.0" y="262.0"/>
+                <ns2:waypoint x="140.0" y="262.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_xor_group_id_004">
+                <ns2:waypoint x="940.0" y="277.0"/>
+                <ns2:waypoint x="965.0" y="277.0"/>
+                <ns2:waypoint x="965.0" y="175.00000000000003"/>
+                <ns2:waypoint x="990.0" y="175.00000000000003"/>
+                <ns4:BPMNLabel>
+                    <ns3:Bounds x="875.0" y="226.0" width="90.0" height="30.0"/>
+                </ns4:BPMNLabel>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_id_001_id_002">
+                <ns2:waypoint x="240.0" y="262.0"/>
+                <ns2:waypoint x="265.0" y="262.0"/>
+                <ns2:waypoint x="265.0" y="265.0"/>
+                <ns2:waypoint x="290.0" y="265.0"/>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_xor_group_join_of_xor_group">
+                <ns2:waypoint x="940.0" y="277.0"/>
+                <ns2:waypoint x="1270.0" y="277.0"/>
+                <ns2:waypoint x="1270.0" y="281.0"/>
+                <ns2:waypoint x="1600.0" y="281.0"/>
+                <ns4:BPMNLabel>
+                    <ns3:Bounds x="1180.0" y="279.0" width="90.0" height="30.0"/>
+                </ns4:BPMNLabel>
+            </ns4:BPMNEdge>
+            <ns4:BPMNEdge bpmnElement="sf_join_of_xor_group_end65">
+                <ns2:waypoint x="1640.0" y="281.0"/>
+                <ns2:waypoint x="1690.0" y="281.0"/>
+            </ns4:BPMNEdge>
+        </ns4:BPMNPlane>
+    </ns4:BPMNDiagram>
 </definitions>
